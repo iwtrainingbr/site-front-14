@@ -1,3 +1,15 @@
 html, body, header {
   height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+}
+
+div.img-header:hover {
+  /*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
+  width: 70%;
+  transition: width 10s;
 }
