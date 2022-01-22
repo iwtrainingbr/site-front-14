@@ -14,5 +14,10 @@ div.img-header:hover {
   transition: width 10s;
 }
 .galeria-img img:hover {
-  
+  width: 160px;
+  height: 120px;
+  margin-left: 15px;
+  transition: width 0.5s;
+  transition: height 0.5s;
+  transition: margin-left 0.1s;
 }
