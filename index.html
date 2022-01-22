@@ -36,11 +36,17 @@
 
     <section>
       <div>
-        <input type="text"></input>
-        <input type="mail"></input>
-        <input type="text"></input>
-        <textarea>Mensagem</textarea>
-        <input type="button"><input>
+        <form name="Contato">
+          <h1>Contato</h1>
+          <input type="text" id="nome" placeholder="Nome" name="nome" />
+          <label for="nome"></label><hr>
+          <input type="email" id="emailid" placeholder="Insira seu e-mail" name="email" />
+          <label for="email"></label><hr>
+          <input type="tel" id="foneid" placeholder="Telefone para contato" name="fone" />
+          <label for="fone"></label><hr>
+          <textarea placeholder="Deixe sua opnião"></textarea><hr>
+          <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /><hr>
+        </form>
       </div>
     </section>
 
